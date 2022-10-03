@@ -11,6 +11,10 @@ public class Box {
         this.length = 1;
     }
 
+    public Box(double side){
+        width = height = length = side;
+    }
+
     public Box(double width, double height, double length) {
         this.width = width;
         this.height = height;
@@ -31,9 +35,13 @@ public class Box {
     }
 
     public double volume() {
-        if (this.width > 0 && this.length > 0 && this.height > 0) {
+        if (width > 0 && length > 0 && height > 0) {
             return width * height * length;
         } else return -1;
 
+    }
+
+    public void showVolume(){
+        System.out.println(volume());
     }
 }
