@@ -5,6 +5,18 @@ public class Box {
     private double height;
     private double length;
 
+    public Box() {
+        this.width = 1;
+        this.height = 1;
+        this.length = 1;
+    }
+
+    public Box(double width, double height, double length) {
+        this.width = width;
+        this.height = height;
+        this.length = length;
+    }
+
     public void setDimens(double width, double height, double length) {
         if (width > 0) {
             this.width = width;
