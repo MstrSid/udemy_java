@@ -1,4 +1,4 @@
-package l_147_148_Interfaces.workers;
+package l_148_149_Interfaces.workers;
 
 public class Cooker extends Employee implements Cookable {
     public Cooker(String name) {

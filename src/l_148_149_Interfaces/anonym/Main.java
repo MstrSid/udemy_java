@@ -1,4 +1,4 @@
-package l_147_148_Interfaces.anonym;
+package l_148_149_Interfaces.anonym;
 
 public class Main {
     public static void main(String[] args) {

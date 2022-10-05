@@ -1,4 +1,4 @@
-package l_147_148_Interfaces.animals;
+package l_148_149_Interfaces.animals;
 
 public class Dog extends Animal implements Runnable {
     @Override
